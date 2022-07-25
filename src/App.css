@@ -281,7 +281,7 @@ body{
   }
 
   .border-lateral{
-    font-size: .6em;
+    padding-left: .5rem;
   }
 
   .form-create-container{
@@ -329,7 +329,7 @@ body{
 
   .top-rigth{
     top: 0;
-    right: 1rem;
+    right: .5rem;
     transform: rotate(90deg);
   }
   
@@ -340,7 +340,7 @@ body{
   
   .bottom-rigth{
     bottom: 0;
-    right: 1rem;
+    right: .5rem;
     transform: rotate(180deg);
   }
   
