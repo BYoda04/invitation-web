@@ -1,38 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 98vh;
+  /* Created with https://www.css-gradient.com */
+  background: #e4ffff;
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+}
+
+.home{
+  background: #d8bfd8;
+  border-left: 2rem solid #a8e4fa;
+  border-right: 2rem solid #a8e4fa;
+  border-bottom: 2rem solid #a8e4fa;
+}
+
+.indications-general{
+  border-top: 2rem solid #a8e4fa;
+  border-left: 2rem solid #a8e4fa;
+  border-right: 2rem solid #a8e4fa;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.3em;
+  min-width: 350px;
+  background: #d8bfd8;
+}
+
+.indications-divitions{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.indications-divitions div{
+  padding: 0 1rem;
+}
+
+.border-lateral{
+  border-left: 5px solid #000;
+  border-right: 5px solid #000;
+}
+
+.indications-general p{
+  margin-bottom: .8rem;
+}
+
+.name{
+  font-size: 2em;
+}
+
+.form-create-container{
+  padding: 1rem;
+  min-width: 350px;
+}
+
+.indications-form{
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 2rem;
+}
+
+.indications-form.bottom{
+  margin-top: 1rem;
+}
+
+.indications-form.bottom ion-icon{
+  font-size: 2em;
+}
+
+.div-form-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.5em;
+}
+
+.div-form-container input{
+  all: unset;
+  text-align: center;
+  border-radius: .8rem;
+  padding: .5rem;
+  background: rgba(255, 231, 255, 0.71);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 231, 255, 0.3);
+  height: 1.5rem;
+  width: 10rem;
+  font-size: .58em;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 1.3em;
+}
+
+.button-container button{
+  all: unset;
+  padding: 1rem;
+  border-radius: .8rem;
+  background: rgba(255, 231, 255, 0.71);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 231, 255, 0.3);
+}
+
+.button-container button:hover{
+  background: rgba(255, 231, 255, 1);
+}
+
+.guest-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: .5rem;
+  font-size: 1.8em;
+  margin-bottom: 2rem;
+}
+
+.confirmation-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.confirmation-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.confirmation-buttons button{
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmate:hover{
+  color: #00bb2d;
+}
+
+.declenead:hover{
+  color: #de1f21;
+}
+
+.escort{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.escort .div-form-container{
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.escort .div-form-container input{
+  font-size: 1em;
+}
+
+.escort .button-container{
+  margin-top: 0;
+}
+
+.escort .button-container button{
+  padding: .7rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.escorts-list{
+  margin-top: 2rem;
+}
+
+.escort-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+}
+
+.escorts-list-container{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 1.5em;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bad{
+  background: #FE8A7F !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.corner{
+  width: 21.5rem;
+  position: absolute;
+}
+
+.top-rigth{
+  top: 0;
+  right: 0;
+  transform: rotate(90deg);
+}
+
+.top-left{
+  top: 0;
+  left: 0;
+}
+
+.bottom-rigth{
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.bottom-left{
+  bottom: 0;
+  left: 0;
+  transform: rotate(270deg);
+}
+
+.corner img{
+  width: 100%;
+}
+
+.z-index-100{
+  z-index: 100;
+}
+
+@media only screen and (max-width: 450px){
+  body{
+    min-height: 100vh;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .home{
+    border-left: 3rem solid #a8e4fa;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .indications-general{
+    border-left: 3rem solid #a8e4fa;
+    top: 2rem;
+    font-size: 1.5em;
+  }
+
+  .name{
+    font-size: 1.8em;
+  }
+
+  .indications-divitions{
+    font-size: .6em;
+  }
+
+  .form-create-container{
+    padding: 1rem;
+  }
+
+  .guest{
+    padding: 1rem;
+  }
+
+  .indications-form{
+    font-size: 1.5em;
+  }
+
+  .div-form-container{
+    font-size: 1.4em;
+  }
+
+  .confirmation-container{
+    font-size: .7em;
+  }
+
+  .guest-container{
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .escort .div-form-container{
+    gap: 1rem;
+    font-size: 1.1em;
+  }
+
+  .escort .div-form-container input{
+    width: 7rem;
+  }
+
+  .escorts-list-container{
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .corner{
+    width: 8rem;
+  }
+
+  .top-rigth{
+    top: 0;
+    right: -2rem;
+    transform: rotate(90deg);
+  }
+  
+  .top-left{
+    top: 0;
+    left: -.5rem;
+  }
+  
+  .bottom-rigth{
+    bottom: 0;
+    right: -2rem;
+    transform: rotate(180deg);
+  }
+
+  .bottom-left{
+    bottom: 0;
+    left: -.5rem;
+    transform: rotate(270deg);
+  }
+
+  .indications-form{
+    font-size: .8em;
+  }
+  
+  .indications-form.bottom ion-icon{
+    font-size: 1em;
   }
 }
