@@ -277,6 +277,7 @@ body{
 
   .indications-divitions{
     font-size: .6em;
+    gap: 1rem;
   }
 
   .form-create-container{
