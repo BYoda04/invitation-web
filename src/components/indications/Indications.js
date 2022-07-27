@@ -4,7 +4,7 @@ const Indications = () => {
     return (
         <div className='indications-general z-index-100'>
             <div>
-                <p className='name'>mis dulces dieciseis</p>
+                <p className='name'>Mis Dulces Dieciseis</p>
                 <p className='subtitle'>Danna Maria<br/>Matos Bastidas</p>
                 <div className='indications-divitions'>
                     <div>
