@@ -333,7 +333,7 @@ body{
 
   .top-rigth{
     top: 0;
-    right: .5rem;
+    right: 0;
     transform: rotate(90deg);
   }
   
@@ -344,7 +344,7 @@ body{
   
   .bottom-rigth{
     bottom: 0;
-    right: .5rem;
+    right: 0;
     transform: rotate(180deg);
   }
   
