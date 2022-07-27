@@ -4,7 +4,8 @@ const Indications = () => {
     return (
         <div className='indications-general z-index-100'>
             <div>
-                <p className='name'>Danna Maria<br/>Matos Bastidas</p>
+                <p className='name'>mis dulces dieciseis</p>
+                <p className='subtitle'>Danna Maria<br/>Matos Bastidas</p>
                 <div className='indications-divitions'>
                     <div>
                         <p>Dia :<br/>13 de Agosto</p>

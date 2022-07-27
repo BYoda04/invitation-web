@@ -60,6 +60,10 @@ body{
   font-size: 2em;
 }
 
+.subtitle{
+  font-size: 1.3em;
+}
+
 .form-create-container{
   padding: 1rem;
   min-width: 350px;
