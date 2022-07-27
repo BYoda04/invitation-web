@@ -57,7 +57,26 @@ body{
 }
 
 .name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
   font-size: 2em;
+}
+
+.name p{
+  margin-bottom: 0;
+}
+
+.circle{
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  border-radius: 100%;
+  border: .2rem solid #000;
 }
 
 .subtitle{
