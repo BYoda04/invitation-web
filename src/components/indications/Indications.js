@@ -5,11 +5,7 @@ const Indications = () => {
         <div className='indications-general z-index-100'>
             <div>
                 <div className='name'>
-                    <p>Mis</p>
-                    <div className='circle'>
-                        <p>16</p>
-                    </div>
-                    <p>Años</p>
+                    <p>Mis Dulces Dieciseis</p>
                 </div>
                 <p className='subtitle'>Danna Maria<br/>Matos Bastidas</p>
                 <div className='indications-divitions'>
